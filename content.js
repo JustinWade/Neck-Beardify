@@ -14,7 +14,7 @@ for (var i = 0; i < elements.length; i++) {
             var replacedText2 = text2.replace(/Women/gi, "M'Ladies");
             
             var text3 = node.nodeValue;
-            var replacedText3 = text3.replace(/Cap/gi, "Fedora");
+            var replacedText3 = text3.replace(/Hat/gi, "Fedora");
             
             var text4 = node.nodeValue;
             var replacedText4 = text4.replace(/Person|Dude|Guy|Boy/gi, "Chad");
