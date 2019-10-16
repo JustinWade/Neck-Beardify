@@ -31,6 +31,9 @@ for (var i = 0; i < elements.length; i++) {
             var text8 = node.nodeValue;
             var replacedText8 = text8.replace(/Water|Drink/gi, "Mountain Dew");
             
+            var text9 = node.nodeValue;
+            var replacedText9 = text9.replace(/chicken nuggets|chicken strips|chicken breasts|chicken fingers|chicken tenders/gi, "chicken tendies");
+            
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
             }
@@ -61,6 +64,10 @@ for (var i = 0; i < elements.length; i++) {
             
             if (replacedText8 !== text) {
                 element.replaceChild(document.createTextNode(replacedText8), node);
+            }
+            
+            if (replacedText9 !== text) {
+                element.replaceChild(document.createTextNode(replacedText9), node);
             }
         }
     }
